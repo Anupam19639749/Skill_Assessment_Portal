@@ -1,0 +1,408 @@
+[
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.AssessmentsController",
+    "Method": "CreateAssessment",
+    "RelativePath": "api/Assessments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assessmentDto",
+        "Type": "Skill_Assessment_Portal_Backend.DTOs.AssessmentCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.AssessmentsController",
+    "Method": "GetAllAssessments",
+    "RelativePath": "api/Assessments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.QuestionsController",
+    "Method": "AddQuestionToAssessment",
+    "RelativePath": "api/assessments/{assessmentId}/Questions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assessmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "questionDto",
+        "Type": "Skill_Assessment_Portal_Backend.DTOs.QuestionCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.QuestionsController",
+    "Method": "GetQuestionsByAssessmentId",
+    "RelativePath": "api/assessments/{assessmentId}/Questions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assessmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.QuestionsController",
+    "Method": "GetQuestionById",
+    "RelativePath": "api/assessments/{assessmentId}/Questions/{questionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assessmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "questionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.QuestionsController",
+    "Method": "UpdateQuestion",
+    "RelativePath": "api/assessments/{assessmentId}/Questions/{questionId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assessmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "questionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "questionDto",
+        "Type": "Skill_Assessment_Portal_Backend.DTOs.QuestionUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.QuestionsController",
+    "Method": "DeleteQuestion",
+    "RelativePath": "api/assessments/{assessmentId}/Questions/{questionId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assessmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "questionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.AssessmentsController",
+    "Method": "GetAssessmentById",
+    "RelativePath": "api/Assessments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.AssessmentsController",
+    "Method": "UpdateAssessment",
+    "RelativePath": "api/Assessments/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "assessmentDto",
+        "Type": "Skill_Assessment_Portal_Backend.DTOs.AssessmentUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userLoginDto",
+        "Type": "Skill_Assessment_Portal_Backend.DTOs.UserLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRegisterDto",
+        "Type": "Skill_Assessment_Portal_Backend.DTOs.UserRegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.ResultsController",
+    "Method": "GetResultByUserAssessmentId",
+    "RelativePath": "api/Results/{userAssessmentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userAssessmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.ResultsController",
+    "Method": "UpdateResultManualEvaluation",
+    "RelativePath": "api/Results/manual-evaluation/{submissionId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "submissionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "marksObtained",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.SubmissionsController",
+    "Method": "CreateSubmission",
+    "RelativePath": "api/Submissions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "submissionDto",
+        "Type": "Skill_Assessment_Portal_Backend.DTOs.SubmissionCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.SubmissionsController",
+    "Method": "GetSubmissionById",
+    "RelativePath": "api/Submissions/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.SubmissionsController",
+    "Method": "GetSubmissionsByUserAssessmentId",
+    "RelativePath": "api/Submissions/by-user-assessment/{userAssessmentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userAssessmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.UserAssessmentsController",
+    "Method": "GetUserAssessments",
+    "RelativePath": "api/UserAssessments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.UserAssessmentsController",
+    "Method": "GetUserAssessmentDetails",
+    "RelativePath": "api/UserAssessments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.UserAssessmentsController",
+    "Method": "StartAssessment",
+    "RelativePath": "api/UserAssessments/{id}/start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.UserAssessmentsController",
+    "Method": "SubmitAssessment",
+    "RelativePath": "api/UserAssessments/{id}/submit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.UserAssessmentsController",
+    "Method": "AssignAssessmentToUsers",
+    "RelativePath": "api/UserAssessments/assign",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assignDto",
+        "Type": "Skill_Assessment_Portal_Backend.DTOs.UserAssessmentAssignDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.UsersController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.UsersController",
+    "Method": "GetUserById",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.UsersController",
+    "Method": "UpdateUserRole",
+    "RelativePath": "api/Users/{id}/role",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newRoleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
