@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using System.Text.Json;
 using Skill_Assessment_Portal_Backend.DTOs;
 using Skill_Assessment_Portal_Backend.Models;
 namespace Skill_Assessment_Portal_Backend.Helpers
@@ -33,9 +34,11 @@ namespace Skill_Assessment_Portal_Backend.Helpers
 
             // Question Mappings
             CreateMap<QuestionCreateDto, Question>()
-                .ForMember(dest => dest.AssessmentId, opt => opt.Ignore()); // AssessmentId from route/context
-            CreateMap<QuestionUpdateDto, Question>();
+                 .ForMember(dest => dest.AssessmentId, opt => opt.Ignore());
+
+            // Update the Question to QuestionDto mapping
             CreateMap<Question, QuestionDto>();
+
 
             // UserAssessment Mappings
             CreateMap<UserAssessmentAssignDto, UserAssessment>(); // Note: This DTO assigns, actual UserAssessment model fields like UserId, AssessmentId, Status will be set by service logic

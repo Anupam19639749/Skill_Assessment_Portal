@@ -9,7 +9,7 @@ namespace Skill_Assessment_Portal_Backend.DTOs
     {
         public string? QuestionText { get; set; }
         public QuestionType? QuestionType { get; set; }
-        public string? OptionsJson { get; set; }
+        public List<string>? Options { get; set; }
         public string? CorrectAnswer { get; set; }
         public DifficultyLevel? DifficultyLevel { get; set; }
 

@@ -7,12 +7,80 @@
       "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\controllers\\assessmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\migrations\\20250922203042_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\migrations\\20250922203042_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\dtos\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\dtos\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\dtos\\questionupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\dtos\\questionupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\dtos\\questioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\dtos\\questioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\enums\\difficultylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\enums\\difficultylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\enums\\questiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\enums\\questiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\enums\\userassessmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\enums\\userassessmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Migrations\\20250923064412_addedConstraint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Skill_Assessment_Portal_Backend\\Migrations\\20250923064412_addedConstraint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\services\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\services\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\controllers\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\controllers\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\models\\assessment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\models\\assessment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\dtos\\assessmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\dtos\\assessmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\dtos\\assessmentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\dtos\\assessmentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\models\\userassessment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\models\\userassessment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\dtos\\assessmentupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\dtos\\assessmentupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\migrations\\20250922203042_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\migrations\\20250922203042_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,14 +114,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\30anu\\source\\KANINI\\Angular\\Angular\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Migrations\\20250922195815_ChangePasswordHashToBytes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\models\\assessment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\models\\assessment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\models\\submission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\models\\submission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -80,10 +140,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\controllers\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\controllers\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -118,30 +174,6 @@
       "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\interfaces\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\dtos\\assessmentupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\dtos\\assessmentupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\dtos\\assessmentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\dtos\\assessmentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\dtos\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\dtos\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\dtos\\questioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\dtos\\questioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\dtos\\assessmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\dtos\\assessmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\interfaces\\irepositories\\iassessmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\interfaces\\irepositories\\iassessmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -153,16 +185,8 @@
       "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\models\\userassessment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\models\\userassessment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\enums\\questiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\enums\\questiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\interfaces\\irepositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -181,16 +205,8 @@
       "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\services\\userassessmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\services\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\services\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\enums\\userassessmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\enums\\userassessmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\repositories\\assessmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -219,14 +235,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\dtos\\questionupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\dtos\\questionupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\interfaces\\iservices\\iuserassessmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -271,10 +279,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\dtos\\userassessmentassigndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\dtos\\userassessmentassigndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|c:\\users\\30anu\\source\\kanini\\c# .net\\skill_assessment_portal_backend\\skill_assessment_portal_backend\\enums\\difficultylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42AD1537-778F-478A-AA47-8C6CFE6585CA}|Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend.csproj|solutionrelative:skill_assessment_portal_backend\\enums\\difficultylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -288,7 +292,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 23,
               "Title": "UserLoginDto.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\UserLoginDto.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\DTOs\\UserLoginDto.cs",
@@ -329,19 +333,254 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20250922203042_init.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Migrations\\20250922203042_init.cs",
-              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Migrations\\20250922203042_init.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Migrations\\20250922203042_init.cs",
-              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Migrations\\20250922203042_init.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "QuestionUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\QuestionUpdateDto.cs",
+              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\DTOs\\QuestionUpdateDto.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\QuestionUpdateDto.cs",
+              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\DTOs\\QuestionUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T20:30:42.232Z"
+              "WhenOpened": "2025-09-22T09:22:13.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuestionCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\QuestionCreateDto.cs",
+              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\DTOs\\QuestionCreateDto.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\QuestionCreateDto.cs",
+              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\DTOs\\QuestionCreateDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswBIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:21:14.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuestionDto.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\QuestionDto.cs",
+              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\DTOs\\QuestionDto.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\QuestionDto.cs",
+              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\DTOs\\QuestionDto.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:22:30.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssessmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Controllers\\AssessmentsController.cs",
+              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Controllers\\AssessmentsController.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Controllers\\AssessmentsController.cs",
+              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Controllers\\AssessmentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T18:42:41.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Data\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Data\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Data\\AppDBContext.cs",
+              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Data\\AppDBContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwF4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T05:50:04.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserAssessmentStatus.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Enums\\UserAssessmentStatus.cs",
+              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Enums\\UserAssessmentStatus.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Enums\\UserAssessmentStatus.cs",
+              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Enums\\UserAssessmentStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T05:46:29.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QuestionType.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Enums\\QuestionType.cs",
+              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Enums\\QuestionType.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Enums\\QuestionType.cs",
+              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Enums\\QuestionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T05:43:20.03Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "DifficultyLevel.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Enums\\DifficultyLevel.cs",
+              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Enums\\DifficultyLevel.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Enums\\DifficultyLevel.cs",
+              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Enums\\DifficultyLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T05:44:16.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250923064412_addedConstraint.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Migrations\\20250923064412_addedConstraint.cs",
+              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Migrations\\20250923064412_addedConstraint.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Migrations\\20250923064412_addedConstraint.cs",
+              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Migrations\\20250923064412_addedConstraint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T06:44:12.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Helpers\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Helpers\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Helpers\\MappingProfile.cs",
+              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Helpers\\MappingProfile.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:32:13.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QuestionService.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Services\\QuestionService.cs",
+              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Services\\QuestionService.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Services\\QuestionService.cs",
+              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Services\\QuestionService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T12:53:51.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Models\\Question.cs",
+              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Models\\Question.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Models\\Question.cs",
+              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Models\\Question.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T05:40:18.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\DTOs\\AuthResponseDto.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\AuthResponseDto.cs",
+              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\DTOs\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:18:41.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "QuestionsController.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Controllers\\QuestionsController.cs",
+              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Controllers\\QuestionsController.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Controllers\\QuestionsController.cs",
+              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Controllers\\QuestionsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T18:43:25.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Assessment.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Models\\Assessment.cs",
+              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Models\\Assessment.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Models\\Assessment.cs",
+              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Models\\Assessment.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T05:39:26.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AssessmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\AssessmentDto.cs",
+              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\DTOs\\AssessmentDto.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\AssessmentDto.cs",
+              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\DTOs\\AssessmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:20:44.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AssessmentCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\AssessmentCreateDto.cs",
+              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\DTOs\\AssessmentCreateDto.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\AssessmentCreateDto.cs",
+              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\DTOs\\AssessmentCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:19:35.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserAssessment.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Models\\UserAssessment.cs",
+              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Models\\UserAssessment.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Models\\UserAssessment.cs",
+              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Models\\UserAssessment.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T05:47:42.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AssessmentUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\AssessmentUpdateDto.cs",
+              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\DTOs\\AssessmentUpdateDto.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\AssessmentUpdateDto.cs",
+              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\DTOs\\AssessmentUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:20:08.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Services\\AuthService.cs",
@@ -353,32 +592,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Data\\AppDBContext.cs",
-              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Data\\AppDBContext.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Data\\AppDBContext.cs",
-              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Data\\AppDBContext.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAADwvzkAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "20250922203042_init.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Migrations\\20250922203042_init.cs",
+              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Migrations\\20250922203042_init.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Migrations\\20250922203042_init.cs",
+              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Migrations\\20250922203042_init.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T05:50:04.4Z"
+              "WhenOpened": "2025-09-22T20:30:42.232Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AssessmentsController.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Controllers\\AssessmentsController.cs",
-              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Controllers\\AssessmentsController.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Controllers\\AssessmentsController.cs",
-              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Controllers\\AssessmentsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T18:42:41.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 24,
               "Title": "UserRegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\UserRegisterDto.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\DTOs\\UserRegisterDto.cs",
@@ -390,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 20,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Models\\User.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Models\\User.cs",
@@ -402,7 +628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 25,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\UserDto.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\DTOs\\UserDto.cs",
@@ -414,7 +640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 21,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Repositories\\UserRepository.cs",
@@ -426,7 +652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 26,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Interfaces\\IServices\\IUserService.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Interfaces\\IServices\\IUserService.cs",
@@ -438,7 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 27,
               "Title": "20250922195815_ChangePasswordHashToBytes.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\Angular\\Angular\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Migrations\\20250922195815_ChangePasswordHashToBytes.cs",
               "RelativeDocumentMoniker": "..\\..\\Angular\\Angular\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Migrations\\20250922195815_ChangePasswordHashToBytes.cs",
@@ -450,7 +676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 28,
               "Title": "Submission.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Models\\Submission.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Models\\Submission.cs",
@@ -462,7 +688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 29,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Models\\Role.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Models\\Role.cs",
@@ -474,31 +700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Question.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Models\\Question.cs",
-              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Models\\Question.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Models\\Question.cs",
-              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Models\\Question.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB8AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T05:40:18.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Assessment.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Models\\Assessment.cs",
-              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Models\\Assessment.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Models\\Assessment.cs",
-              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Models\\Assessment.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAwAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T05:39:26.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 30,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Controllers\\AuthController.cs",
@@ -510,7 +712,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 31,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Controllers\\UsersController.cs",
@@ -522,7 +724,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 32,
               "Title": "UserAssessmentsController.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Controllers\\UserAssessmentsController.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Controllers\\UserAssessmentsController.cs",
@@ -534,7 +736,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 33,
               "Title": "SubmissionsController.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Controllers\\SubmissionsController.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Controllers\\SubmissionsController.cs",
@@ -546,7 +748,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 34,
               "Title": "ResultsController.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Controllers\\ResultsController.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Controllers\\ResultsController.cs",
@@ -558,19 +760,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "QuestionsController.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Controllers\\QuestionsController.cs",
-              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Controllers\\QuestionsController.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Controllers\\QuestionsController.cs",
-              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Controllers\\QuestionsController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA1wAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T18:43:25.041Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 35,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Program.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Program.cs",
@@ -582,7 +772,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 36,
               "Title": "AssessmentService.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Services\\AssessmentService.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Services\\AssessmentService.cs",
@@ -594,7 +784,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 37,
               "Title": "IAssessmentService.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Interfaces\\IServices\\IAssessmentService.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Interfaces\\IServices\\IAssessmentService.cs",
@@ -606,7 +796,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 38,
               "Title": "SubmissionService.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Services\\SubmissionService.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Services\\SubmissionService.cs",
@@ -618,7 +808,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 39,
               "Title": "ISubmissionRepository.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Interfaces\\IRepositories\\ISubmissionRepository.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Interfaces\\IRepositories\\ISubmissionRepository.cs",
@@ -630,7 +820,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 40,
               "Title": "ISubmissionService.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Interfaces\\IServices\\ISubmissionService.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Interfaces\\IServices\\ISubmissionService.cs",
@@ -642,19 +832,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "AuthResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\AuthResponseDto.cs",
-              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\DTOs\\AuthResponseDto.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\AuthResponseDto.cs",
-              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\DTOs\\AuthResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T09:18:41.125Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 41,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Interfaces\\IServices\\IAuthService.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Interfaces\\IServices\\IAuthService.cs",
@@ -666,7 +844,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 42,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Interfaces\\IRepositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Interfaces\\IRepositories\\IUserRepository.cs",
@@ -678,67 +856,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "AssessmentUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\AssessmentUpdateDto.cs",
-              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\DTOs\\AssessmentUpdateDto.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\AssessmentUpdateDto.cs",
-              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\DTOs\\AssessmentUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T09:20:08.664Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "AssessmentCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\AssessmentCreateDto.cs",
-              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\DTOs\\AssessmentCreateDto.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\AssessmentCreateDto.cs",
-              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\DTOs\\AssessmentCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T09:19:35.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "QuestionDto.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\QuestionDto.cs",
-              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\DTOs\\QuestionDto.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\QuestionDto.cs",
-              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\DTOs\\QuestionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T09:22:30.868Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "QuestionCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\QuestionCreateDto.cs",
-              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\DTOs\\QuestionCreateDto.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\QuestionCreateDto.cs",
-              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\DTOs\\QuestionCreateDto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T09:21:14.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "AssessmentDto.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\AssessmentDto.cs",
-              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\DTOs\\AssessmentDto.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\AssessmentDto.cs",
-              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\DTOs\\AssessmentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T09:20:44.722Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 43,
               "Title": "IAssessmentRepository.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Interfaces\\IRepositories\\IAssessmentRepository.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Interfaces\\IRepositories\\IAssessmentRepository.cs",
@@ -750,7 +868,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 44,
               "Title": "20250922175502_init.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\Angular\\Angular\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Migrations\\20250922175502_init.cs",
               "RelativeDocumentMoniker": "..\\..\\Angular\\Angular\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Migrations\\20250922175502_init.cs",
@@ -762,19 +880,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "UserAssessment.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Models\\UserAssessment.cs",
-              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Models\\UserAssessment.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Models\\UserAssessment.cs",
-              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Models\\UserAssessment.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T05:47:42.915Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 45,
               "Title": "Result.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Models\\Result.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Models\\Result.cs",
@@ -786,7 +892,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 46,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Services\\UserService.cs",
@@ -798,19 +904,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "QuestionType.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Enums\\QuestionType.cs",
-              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Enums\\QuestionType.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Enums\\QuestionType.cs",
-              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Enums\\QuestionType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T05:43:20.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 47,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Interfaces\\IRepositories\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Interfaces\\IRepositories\\IGenericRepository.cs",
@@ -822,7 +916,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 48,
               "Title": "IUserAssessmentRepository.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Interfaces\\IRepositories\\IUserAssessmentRepository.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Interfaces\\IRepositories\\IUserAssessmentRepository.cs",
@@ -834,7 +928,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 49,
               "Title": "ResultService.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Services\\ResultService.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Services\\ResultService.cs",
@@ -846,7 +940,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 50,
               "Title": "UserAssessmentService.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Services\\UserAssessmentService.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Services\\UserAssessmentService.cs",
@@ -858,19 +952,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "QuestionService.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Services\\QuestionService.cs",
-              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Services\\QuestionService.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Services\\QuestionService.cs",
-              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Services\\QuestionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwDsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T12:53:51.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 51,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\appsettings.json",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\appsettings.json",
@@ -882,19 +964,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "UserAssessmentStatus.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Enums\\UserAssessmentStatus.cs",
-              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Enums\\UserAssessmentStatus.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Enums\\UserAssessmentStatus.cs",
-              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Enums\\UserAssessmentStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T05:46:29.559Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 52,
               "Title": "AssessmentRepository.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Repositories\\AssessmentRepository.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Repositories\\AssessmentRepository.cs",
@@ -906,7 +976,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 53,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Repositories\\GenericRepository.cs",
@@ -918,7 +988,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 54,
               "Title": "ResultRepository.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Repositories\\ResultRepository.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Repositories\\ResultRepository.cs",
@@ -930,7 +1000,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 55,
               "Title": "SubmissionRepository.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Repositories\\SubmissionRepository.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Repositories\\SubmissionRepository.cs",
@@ -942,7 +1012,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 56,
               "Title": "UserAssessmentRepository.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Repositories\\UserAssessmentRepository.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Repositories\\UserAssessmentRepository.cs",
@@ -954,7 +1024,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 57,
               "Title": "QuestionRepository.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Repositories\\QuestionRepository.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Repositories\\QuestionRepository.cs",
@@ -966,7 +1036,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 58,
               "Title": "RoleRepository.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Repositories\\RoleRepository.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Repositories\\RoleRepository.cs",
@@ -978,31 +1048,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "QuestionUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\QuestionUpdateDto.cs",
-              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\DTOs\\QuestionUpdateDto.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\QuestionUpdateDto.cs",
-              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\DTOs\\QuestionUpdateDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAAAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T09:22:13.674Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Helpers\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Helpers\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Helpers\\MappingProfile.cs",
-              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Helpers\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T09:32:13.176Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 59,
               "Title": "IUserAssessmentService.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Interfaces\\IServices\\IUserAssessmentService.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Interfaces\\IServices\\IUserAssessmentService.cs",
@@ -1014,7 +1060,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 60,
               "Title": "IResultService.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Interfaces\\IServices\\IResultService.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Interfaces\\IServices\\IResultService.cs",
@@ -1026,7 +1072,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 61,
               "Title": "IQuestionService.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Interfaces\\IServices\\IQuestionService.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Interfaces\\IServices\\IQuestionService.cs",
@@ -1038,7 +1084,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 62,
               "Title": "IResultRepository.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Interfaces\\IRepositories\\IResultRepository.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Interfaces\\IRepositories\\IResultRepository.cs",
@@ -1050,7 +1096,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 63,
               "Title": "IQuestionRepository.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Interfaces\\IRepositories\\IQuestionRepository.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Interfaces\\IRepositories\\IQuestionRepository.cs",
@@ -1062,7 +1108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 64,
               "Title": "IRoleRepository.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Interfaces\\IRepositories\\IRoleRepository.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Interfaces\\IRepositories\\IRoleRepository.cs",
@@ -1074,7 +1120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 69,
               "Title": "UserAssessmentAssignDto.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\UserAssessmentAssignDto.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\DTOs\\UserAssessmentAssignDto.cs",
@@ -1086,7 +1132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 68,
               "Title": "UserAssessmentDto.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\UserAssessmentDto.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\DTOs\\UserAssessmentDto.cs",
@@ -1098,7 +1144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 67,
               "Title": "SubmissionCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\SubmissionCreateDto.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\DTOs\\SubmissionCreateDto.cs",
@@ -1110,7 +1156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 66,
               "Title": "SubmissionDto.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\SubmissionDto.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\DTOs\\SubmissionDto.cs",
@@ -1122,7 +1168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 65,
               "Title": "ResultDto.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\DTOs\\ResultDto.cs",
               "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\DTOs\\ResultDto.cs",
@@ -1131,18 +1177,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T09:24:39.738Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "DifficultyLevel.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Enums\\DifficultyLevel.cs",
-              "RelativeDocumentMoniker": "Skill_Assessment_Portal_Backend\\Enums\\DifficultyLevel.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\KANINI\\C# .NET\\Skill_Assessment_Portal_Backend\\Skill_Assessment_Portal_Backend\\Enums\\DifficultyLevel.cs",
-              "RelativeToolTip": "Skill_Assessment_Portal_Backend\\Enums\\DifficultyLevel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T05:44:16.493Z"
             }
           ]
         }

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Skill_Assessment_Portal_Backend.Data;
 
@@ -11,9 +12,11 @@ using Skill_Assessment_Portal_Backend.Data;
 namespace Skill_Assessment_Portal_Backend.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    partial class AppDBContextModelSnapshot : ModelSnapshot
+    [Migration("20250923064412_addedConstraint")]
+    partial class addedConstraint
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -80,7 +83,7 @@ namespace Skill_Assessment_Portal_Backend.Migrations
                     b.Property<int>("MaxMarks")
                         .HasColumnType("int");
 
-                    b.Property<string>("Options")
+                    b.PrimitiveCollection<string>("Options")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("QuestionText")

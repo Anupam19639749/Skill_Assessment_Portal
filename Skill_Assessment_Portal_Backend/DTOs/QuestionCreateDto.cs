@@ -16,7 +16,7 @@ namespace Skill_Assessment_Portal_Backend.DTOs
         public QuestionType QuestionType { get; set; }
 
         // For MCQ, this will be a JSON string of options (e.g., ["Option A", "Option B"])
-        public string? OptionsJson { get; set; }
+        public List<string>? Options { get; set; }
 
         // For MCQ, this would be the correct option; for others, it's a model answer/expected output.
         [Required(ErrorMessage = "Correct answer is required.")]
@@ -32,3 +32,5 @@ namespace Skill_Assessment_Portal_Backend.DTOs
         public string? ReferenceFilePath { get; set; } // Path to an image, code snippet, etc.
     }
 }
+
+

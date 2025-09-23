@@ -19,7 +19,7 @@ namespace Skill_Assessment_Portal_Backend.Models
 
         [Required]
         public QuestionType QuestionType { get; set; }
-        public string? OptionsJson { get; set; }
+        public List<string>? Options { get; set; }
 
         [Required]
         public string? CorrectAnswer { get; set; }
