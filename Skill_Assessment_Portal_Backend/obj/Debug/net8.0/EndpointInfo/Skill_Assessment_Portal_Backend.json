@@ -554,6 +554,27 @@
             "description": "OK"
           }
         }
+      },
+      "delete": {
+        "tags": [
+          "UserAssessments"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
     "/api/UserAssessments/{id}/start": {
@@ -635,6 +656,27 @@
             "description": "OK"
           }
         }
+      },
+      "delete": {
+        "tags": [
+          "Users"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
     "/api/Users/{id}/role": {
@@ -657,20 +699,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "integer",
-                "format": "int32"
+                "$ref": "#/components/schemas/UpdateRoleDto"
               }
             },
             "text/json": {
               "schema": {
-                "type": "integer",
-                "format": "int32"
+                "$ref": "#/components/schemas/UpdateRoleDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "integer",
-                "format": "int32"
+                "$ref": "#/components/schemas/UpdateRoleDto"
               }
             }
           }
@@ -864,6 +903,16 @@
         },
         "additionalProperties": false
       },
+      "UpdateRoleDto": {
+        "type": "object",
+        "properties": {
+          "newRoleId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "UserAssessmentAssignDto": {
         "required": [
           "assessmentId",
@@ -881,6 +930,10 @@
               "type": "integer",
               "format": "int32"
             }
+          },
+          "scheduledAt": {
+            "type": "string",
+            "format": "date-time"
           }
         },
         "additionalProperties": false

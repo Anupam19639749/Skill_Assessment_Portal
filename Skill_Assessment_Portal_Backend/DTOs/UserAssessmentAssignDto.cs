@@ -10,5 +10,6 @@ namespace Skill_Assessment_Portal_Backend.DTOs
 
         [Required(ErrorMessage = "At least one User ID is required.")]
         public List<int> UserIds { get; set; }
+        public DateTime ScheduledAt { get; set; }
     }
 }

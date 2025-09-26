@@ -101,5 +101,24 @@ namespace Skill_Assessment_Portal_Backend.Controllers
             }
         }
 
+        [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin,Evaluator")]
+        public async Task<IActionResult> UnassignAssessment(int id)
+        {
+            try
+            {
+                await _userAssessmentService.UnassignAssessmentAsync(id);
+                return NoContent(); // 204 No Content is standard for successful deletion
+            }
+            catch (KeyNotFoundException)
+            {
+                return NotFound();
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(new { message = ex.Message }); // Returns the business logic error
+            }
+        }
+
     }
 }

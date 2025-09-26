@@ -11,5 +11,6 @@ namespace Skill_Assessment_Portal_Backend.Interfaces.IServices
         Task<UserAssessmentDto> GetUserAssessmentDetailsAsync(int userAssessmentId);
         Task StartAssessmentAsync(int userAssessmentId, int userId); // Marks status InProgress
         Task SubmitAssessmentAsync(int userAssessmentId, int userId); // Marks status Submitted, triggers auto-evaluation
+        Task UnassignAssessmentAsync(int userAssessmentId);
     }
 }

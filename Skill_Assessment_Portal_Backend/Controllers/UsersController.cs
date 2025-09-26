@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Skill_Assessment_Portal_Backend.DTOs;
 using Skill_Assessment_Portal_Backend.Interfaces.IServices;
 using System.Security.Claims;
 
@@ -50,12 +51,27 @@ namespace Skill_Assessment_Portal_Backend.Controllers
 
         [HttpPut("{id}/role")]
         [Authorize(Roles = "Admin")] // Only Admins can update a user's role
-        public async Task<IActionResult> UpdateUserRole(int id, [FromBody] int newRoleId)
+        public async Task<IActionResult> UpdateUserRole(int id, [FromBody] UpdateRoleDto updateRoleDto)
         {
             try
             {
-                await _userService.UpdateUserRoleAsync(id, newRoleId);
+                await _userService.UpdateUserRoleAsync(id, updateRoleDto.NewRoleId);
                 return NoContent();
+            }
+            catch (KeyNotFoundException)
+            {
+                return NotFound();
+            }
+        }
+
+        [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")] // Only Admins can delete users
+        public async Task<IActionResult> DeleteUser(int id)
+        {
+            try
+            {
+                await _userService.DeleteUserAsync(id);
+                return NoContent(); // 204 No Content is a standard response for a successful delete
             }
             catch (KeyNotFoundException)
             {

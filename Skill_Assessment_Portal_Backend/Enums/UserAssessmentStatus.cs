@@ -4,6 +4,8 @@
     {
         NotStarted,
         InProgress,
-        Submitted
+        Submitted,
+        Evaluated,
+        Completed
     }
 }

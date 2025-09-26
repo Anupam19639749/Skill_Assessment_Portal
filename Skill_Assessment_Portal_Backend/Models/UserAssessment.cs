@@ -20,7 +20,7 @@ namespace Skill_Assessment_Portal_Backend.Models
         public int AssessmentId { get; set; }
         public Assessment Assessment { get; set; } = null!;
 
-        public DateTime AssignedAt { get; set; } = DateTime.Now;
+        public DateTime ScheduledAt { get; set; }
 
         public UserAssessmentStatus Status { get; set; } = UserAssessmentStatus.NotStarted;
 

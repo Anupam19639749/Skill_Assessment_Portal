@@ -49,7 +49,9 @@ namespace Skill_Assessment_Portal_Backend.Helpers
                 .ForMember(dest => dest.DurationMinutes, opt => opt.MapFrom(src => src.Assessment.DurationMinutes))
                 .ForMember(dest => dest.TotalMarksObtained, opt => opt.MapFrom(src => src.Result != null ? src.Result.TotalMarksObtained : (int?)null))
                 .ForMember(dest => dest.Percentage, opt => opt.MapFrom(src => src.Result != null ? src.Result.Percentage : (float?)null))
-                .ForMember(dest => dest.Passed, opt => opt.MapFrom(src => src.Result != null ? src.Result.Passed : (bool?)null));
+                .ForMember(dest => dest.Passed, opt => opt.MapFrom(src => src.Result != null ? src.Result.Passed : (bool?)null))
+                .ForMember(dest => dest.ScheduledAt, opt => opt.MapFrom(src => src.ScheduledAt));
+                
 
             // Submission Mappings
             CreateMap<SubmissionCreateDto, Submission>()

@@ -57,7 +57,7 @@ namespace Skill_Assessment_Portal_Backend.Services
                     {
                         UserId = userId,
                         AssessmentId = assignDto.AssessmentId,
-                        AssignedAt = DateTime.Now,
+                        ScheduledAt = assignDto.ScheduledAt,
                         Status = UserAssessmentStatus.NotStarted
                     };
                     await _userAssessmentRepository.AddAsync(userAssessment);
@@ -134,6 +134,25 @@ namespace Skill_Assessment_Portal_Backend.Services
 
             // Trigger result generation
             await _resultService.GenerateResultAsync(userAssessmentId);
+        }
+
+        public async Task UnassignAssessmentAsync(int userAssessmentId)
+        {
+            var userAssessmentToDelete = await _userAssessmentRepository.GetByIdAsync(userAssessmentId);
+
+            if (userAssessmentToDelete == null)
+            {
+                throw new KeyNotFoundException($"User Assessment with ID {userAssessmentId} not found.");
+            }
+
+            // BUSINESS LOGIC: Only allow unassignment if the test has NOT been started.
+            // If Status > NotStarted (0), deletion should be blocked for data integrity.
+            if (userAssessmentToDelete.Status != Enums.UserAssessmentStatus.NotStarted)
+            {
+                throw new InvalidOperationException("Cannot unassign an assessment that has already been started or submitted.");
+            }
+
+            _userAssessmentRepository.Delete(userAssessmentToDelete);
         }
     }
 

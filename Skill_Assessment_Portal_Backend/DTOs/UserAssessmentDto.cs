@@ -12,7 +12,7 @@ namespace Skill_Assessment_Portal_Backend.DTOs
         public int AssessmentId { get; set; }
         public string AssessmentTitle { get; set; }
         public UserAssessmentStatus Status { get; set; }
-        public DateTime AssignedAt { get; set; }
+        public DateTime ScheduledAt { get; set; }
         public int DurationMinutes { get; set; } // From the Assessment, for candidate info
         public int? TotalMarksObtained { get; set; } // From Result, if available
         public float? Percentage { get; set; } // From Result, if available
