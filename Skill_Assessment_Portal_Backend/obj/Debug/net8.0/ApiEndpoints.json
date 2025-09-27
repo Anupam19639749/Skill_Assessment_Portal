@@ -296,6 +296,22 @@
   },
   {
     "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.UserAssessmentsController",
+    "Method": "GetUserAssessmentByAssessmentId",
+    "RelativePath": "api/UserAssessments/{assesssmentId}/assessment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assesssmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.UserAssessmentsController",
     "Method": "GetUserAssessmentDetails",
     "RelativePath": "api/UserAssessments/{id}",
     "HttpMethod": "GET",
@@ -352,6 +368,22 @@
     "Parameters": [
       {
         "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Skill_Assessment_Portal_Backend.Controllers.UserAssessmentsController",
+    "Method": "GetUserAssessmentsForUserAsync",
+    "RelativePath": "api/UserAssessments/{userId}/user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
         "Type": "System.Int32",
         "IsRequired": true
       }

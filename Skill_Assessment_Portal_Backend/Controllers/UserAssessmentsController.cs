@@ -45,6 +45,33 @@ namespace Skill_Assessment_Portal_Backend.Controllers
             }
         }
 
+        [HttpGet("{assesssmentId}/assessment")]
+        public async Task<IActionResult> GetUserAssessmentByAssessmentId(int assesssmentId)
+        {
+
+            var currentUserId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+            var currentUserRole = User.FindFirstValue(ClaimTypes.Role);
+
+
+            if (currentUserRole == "Admin" || currentUserRole == "Evaluator")
+            {
+                var userAssessment = await _userAssessmentService.GetUserAssessmentsByAssessmentIdAsync(assesssmentId);
+                return Ok(userAssessment);
+            }
+            else
+            {
+                var assessments = await _userAssessmentService.GetUserAssessmentsForUserAsync(currentUserId);
+                return Ok(assessments);
+            }
+        }
+
+        [HttpGet("{userId}/user")]
+        public async Task<IActionResult> GetUserAssessmentsForUserAsync (int userId)
+        {
+            var assessments = await _userAssessmentService.GetUserAssessmentsForUserAsync(userId);
+            return Ok(assessments);
+        }
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetUserAssessmentDetails(int id)
         {

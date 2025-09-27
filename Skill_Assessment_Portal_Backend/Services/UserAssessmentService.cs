@@ -64,19 +64,11 @@ namespace Skill_Assessment_Portal_Backend.Services
                 }
             }
         }
-
-        public async Task<IEnumerable<UserAssessmentDto>> GetUserAssessmentsForUserAsync(int userId)
+        public async Task<UserAssessmentDto> GetUserAssessmentDetailsAsync(int userAssessmentId)
         {
-            var userAssessments = await _userAssessmentRepository.GetUserAssessmentsByUserIdAsync(userId);
-            // Need to eager load Result for DTO mapping
-            var userAssessmentsWithDetails = new List<UserAssessment>();
-            foreach (var ua in userAssessments)
-            {
-                var uaWithDetails = await _userAssessmentRepository.GetUserAssessmentWithDetailsAsync(ua.UserAssessmentId);
-                if (uaWithDetails != null) userAssessmentsWithDetails.Add(uaWithDetails);
-            }
-
-            return _mapper.Map<IEnumerable<UserAssessmentDto>>(userAssessmentsWithDetails);
+            var userAssessment = await _userAssessmentRepository.GetUserAssessmentWithDetailsAsync(userAssessmentId);
+            if (userAssessment == null) return null;
+            return _mapper.Map<UserAssessmentDto>(userAssessment);
         }
 
         public async Task<IEnumerable<UserAssessmentDto>> GetUserAssessmentsForAdminAsync()
@@ -91,11 +83,31 @@ namespace Skill_Assessment_Portal_Backend.Services
             return _mapper.Map<IEnumerable<UserAssessmentDto>>(userAssessmentsWithDetails);
         }
 
-        public async Task<UserAssessmentDto> GetUserAssessmentDetailsAsync(int userAssessmentId)
+
+        public async Task<IEnumerable<UserAssessmentDto>> GetUserAssessmentsForUserAsync(int userId)
         {
-            var userAssessment = await _userAssessmentRepository.GetUserAssessmentWithDetailsAsync(userAssessmentId);
-            if (userAssessment == null) return null;
-            return _mapper.Map<UserAssessmentDto>(userAssessment);
+            var userAssessments = await _userAssessmentRepository.GetUserAssessmentsByUserIdAsync(userId);
+            // Need to eager load Result for DTO mapping
+            var userAssessmentsWithDetails = new List<UserAssessment>();
+            foreach (var ua in userAssessments)
+            {
+                var uaWithDetails = await _userAssessmentRepository.GetUserAssessmentWithDetailsAsync(ua.UserAssessmentId);
+                if (uaWithDetails != null) userAssessmentsWithDetails.Add(uaWithDetails);
+            }
+
+            return _mapper.Map<IEnumerable<UserAssessmentDto>>(userAssessmentsWithDetails);
+        }
+        public async Task<IEnumerable<UserAssessmentDto>> GetUserAssessmentsByAssessmentIdAsync(int assessementId)
+        {
+            var userAssessments = await _userAssessmentRepository.GetUserAssessmentsByAssessmentIdAsync(assessementId);
+            var userAssessmentsWithDetails = new List<UserAssessment>();
+            foreach (var ua in userAssessments)
+            {
+                var uaWithDetails = await _userAssessmentRepository.GetUserAssessmentWithDetailsAsync(ua.UserAssessmentId);
+                if (uaWithDetails != null) userAssessmentsWithDetails.Add(uaWithDetails);
+            }
+
+            return _mapper.Map<IEnumerable<UserAssessmentDto>>(userAssessmentsWithDetails);
         }
 
         public async Task StartAssessmentAsync(int userAssessmentId, int userId)
