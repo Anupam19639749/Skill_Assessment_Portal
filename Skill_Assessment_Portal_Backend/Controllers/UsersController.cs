@@ -22,7 +22,7 @@ namespace Skill_Assessment_Portal_Backend.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Admin")] // Only Admins can view all users
+        [Authorize(Roles = "Admin")] 
         public async Task<IActionResult> GetAllUsers()
         {
             var users = await _userService.GetAllUsersAsync();
@@ -32,7 +32,7 @@ namespace Skill_Assessment_Portal_Backend.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetUserById(int id)
         {
-            // Allow user to get their own profile, or admin/evaluator to get any user profile
+           
             var currentUserId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
             var currentUserRole = User.FindFirstValue(ClaimTypes.Role);
 
@@ -50,7 +50,7 @@ namespace Skill_Assessment_Portal_Backend.Controllers
         }
 
         [HttpPut("{id}/role")]
-        [Authorize(Roles = "Admin")] // Only Admins can update a user's role
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateUserRole(int id, [FromBody] UpdateRoleDto updateRoleDto)
         {
             try
@@ -61,6 +61,66 @@ namespace Skill_Assessment_Portal_Backend.Controllers
             catch (KeyNotFoundException)
             {
                 return NotFound();
+            }
+        }
+
+        [HttpPut("{id}/profile")]
+        public async Task<IActionResult> UpdateUserProfile(int id, [FromBody] UserProfileUpdateDto updateDto)
+        {
+            // Authorization Check: User can only update their own profile unless they are an Admin
+            var currentUserId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+            var currentUserRole = User.FindFirstValue(ClaimTypes.Role);
+
+            if (currentUserId != id && currentUserRole != "Admin")
+            {
+                return Forbid("You are not authorized to update this profile.");
+            }
+
+            try
+            {
+                await _userService.UpdateUserProfileAsync(id, updateDto);
+                return Ok(new { message = "Profile updated successfully." });
+            }
+            catch (KeyNotFoundException)
+            {
+                return NotFound($"User with ID {id} not found.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"An error occurred: {ex.Message}");
+            }
+        }
+
+        // NEW: Change user password
+        [HttpPut("{id}/password")]
+        public async Task<IActionResult> ChangePassword(int id, [FromBody] UserPasswordUpdateDto passwordDto)
+        {
+            var currentUserId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+            var currentUserRole = User.FindFirstValue(ClaimTypes.Role);
+
+            bool canChangePassword = (currentUserId == id) || (currentUserRole == "Admin");
+
+            if (!canChangePassword)
+            {
+                return Unauthorized(new { message = "You are not authorized to change this password for another user." });
+            }
+
+            try
+            {
+                await _userService.ChangeUserPasswordAsync(id, passwordDto);
+                return Ok(new { message = "Password changed successfully." });
+            }
+            catch (KeyNotFoundException)
+            {
+                return NotFound($"User with ID {id} not found.");
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                return Unauthorized(new { message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"An error occurred: {ex.Message}");
             }
         }
 

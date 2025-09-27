@@ -17,6 +17,23 @@ namespace Skill_Assessment_Portal_Backend.Helpers
             CreateMap<User, UserDto>()
                 .ForMember(dest => dest.RoleName, opt => opt.MapFrom(src => src.Role.RoleName)); // Map RoleName from nested Role object
 
+            CreateMap<UserProfileUpdateDto, User>()
+                .ForMember(dest => dest.FullName, opt => opt.Condition(src => src.FullName != null))
+                .ForMember(dest => dest.Email, opt => opt.Condition(src => src.Email != null))
+                .ForMember(dest => dest.ProfilePicturePath, opt => opt.Condition(src => src.ProfilePicturePath != null))
+                .ForMember(dest => dest.Gender, opt => opt.Condition(src => src.Gender != null))
+                .ForMember(dest => dest.HighestQualification, opt => opt.Condition(src => src.HighestQualification != null))
+                .ForMember(dest => dest.IsEmployed, opt => opt.Condition(src => src.IsEmployed.HasValue))
+                .ForMember(dest => dest.CurrentRole, opt => opt.Condition(src => src.CurrentRole != null))
+                // Ignore properties that should not be updated via profile DTO
+                .ForMember(dest => dest.UserId, opt => opt.Ignore())
+                .ForMember(dest => dest.PasswordHash, opt => opt.Ignore())
+                .ForMember(dest => dest.PasswordSalt, opt => opt.Ignore())
+                .ForMember(dest => dest.CreatedAt, opt => opt.Ignore())
+                .ForMember(dest => dest.UpdatedAt, opt => opt.Ignore())
+                .ForMember(dest => dest.RoleId, opt => opt.Ignore())
+                .ForMember(dest => dest.Role, opt => opt.Ignore());
+
             // Assessment Mappings
             CreateMap<AssessmentCreateDto, Assessment>()
                 .ForMember(dest => dest.CreatedBy, opt => opt.Ignore()) // Will be set by service from JWT

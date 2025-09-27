@@ -345,3 +345,6 @@ C:\Users\30anu\source\KANINI\C# .NET\Skill_Assessment_Portal_Backend\Skill_Asses
 C:\Users\30anu\source\KANINI\C# .NET\Skill_Assessment_Portal_Backend\Skill_Assessment_Portal_Backend\obj\Debug\net8.0\Skill_Assessment_Portal_Backend.genruntimeconfig.cache
 C:\Users\30anu\source\KANINI\C# .NET\Skill_Assessment_Portal_Backend\Skill_Assessment_Portal_Backend\obj\Debug\net8.0\ref\Skill_Assessment_Portal_Backend.dll
 C:\Users\30anu\source\KANINI\C# .NET\Skill_Assessment_Portal_Backend\Skill_Assessment_Portal_Backend\obj\Debug\net8.0\Skill_Assessment_Portal_Backend.sourcelink.json
+C:\Users\30anu\source\KANINI\C# .NET\Skill_Assessment_Portal_Backend\Skill_Assessment_Portal_Backend\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\30anu\source\KANINI\C# .NET\Skill_Assessment_Portal_Backend\Skill_Assessment_Portal_Backend\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\30anu\source\KANINI\C# .NET\Skill_Assessment_Portal_Backend\Skill_Assessment_Portal_Backend\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
