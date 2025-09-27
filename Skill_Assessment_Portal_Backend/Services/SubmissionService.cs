@@ -74,9 +74,10 @@ namespace Skill_Assessment_Portal_Backend.Services
         public async Task<IEnumerable<SubmissionDto>> GetSubmissionsByUserAssessmentIdAsync(int userAssessmentId, int userId)
         {
             var userAssessment = await _userAssessmentRepository.GetByIdAsync(userAssessmentId);
-            if (userAssessment == null || (userAssessment.UserId != userId && (await _userRepository.GetByIdAsync(userId)).Role.RoleName != "Admin" && (await _userRepository.GetByIdAsync(userId)).Role.RoleName != "Evaluator"))
+            //if (userAssessment == null || (userAssessment.UserId != userId && (await _userRepository.GetByIdAsync(userId)).Role.RoleName != "Admin" && (await _userRepository.GetByIdAsync(userId)).Role.RoleName != "Evaluator"))
+            if (userAssessment == null)
             {
-                throw new UnauthorizedAccessException("Not authorized to view these submissions.");
+                throw new KeyNotFoundException($"UserAssessment with ID {userAssessmentId} not found.");
             }
 
             var submissions = await _submissionRepository.GetSubmissionsByUserAssessmentIdAsync(userAssessmentId);
@@ -89,9 +90,11 @@ namespace Skill_Assessment_Portal_Backend.Services
             if (submission == null) return null;
 
             var userAssessment = await _userAssessmentRepository.GetByIdAsync(submission.UserAssessmentId);
-            if (userAssessment == null || (userAssessment.UserId != userId && (await _userRepository.GetByIdAsync(userId)).Role.RoleName != "Admin" && (await _userRepository.GetByIdAsync(userId)).Role.RoleName != "Evaluator"))
+            //if (userAssessment == null || (userAssessment.UserId != userId && (await _userRepository.GetByIdAsync(userId)).Role.RoleName != "Admin" && (await _userRepository.GetByIdAsync(userId)).Role.RoleName != "Evaluator"))
+            if (userAssessment == null)
             {
-                throw new UnauthorizedAccessException("Not authorized to view this submission.");
+                //throw new UnauthorizedAccessException("Not authorized to view this submission.");
+                throw new KeyNotFoundException($"UserAssessment with submission ID {submissionId} not found.");
             }
 
             return _mapper.Map<SubmissionDto>(submission);

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Skill_Assessment_Portal_Backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48c64078ad49fe9c44a5d95882ca2aab63779bd0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6246bf92e9e396d1baeeb8ca1600943fbb7807e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Skill_Assessment_Portal_Backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Skill_Assessment_Portal_Backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
