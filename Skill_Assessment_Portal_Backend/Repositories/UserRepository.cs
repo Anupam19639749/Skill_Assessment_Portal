@@ -7,7 +7,10 @@ namespace Skill_Assessment_Portal_Backend.Repositories
 {
     public class UserRepository : GenericRepository<User>, IUserRepository
     {
-        public UserRepository(AppDBContext context) : base(context) { }
+        
+        public UserRepository(AppDBContext context) : base(context) {
+            
+        }
 
         public async Task<User> GetUserByEmailAsync(string email)
         {
@@ -18,5 +21,6 @@ namespace Skill_Assessment_Portal_Backend.Repositories
         {
             return await _dbSet.AnyAsync(u => u.Email == email);
         }
+
     }
 }

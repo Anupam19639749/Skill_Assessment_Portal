@@ -8,7 +8,6 @@ namespace Skill_Assessment_Portal_Backend.Controllers
 {
     [ApiController]
     [Route("api/assessments/{assessmentId}/[controller]")]
-    [Authorize(Roles = "Admin,Evaluator")]
     public class QuestionsController : ControllerBase
     {
         private readonly IQuestionService _questionService;
@@ -19,6 +18,7 @@ namespace Skill_Assessment_Portal_Backend.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin,Evaluator")]
         public async Task<IActionResult> AddQuestionToAssessment(int assessmentId, [FromBody] QuestionCreateDto questionDto)
         {
             try
@@ -33,6 +33,7 @@ namespace Skill_Assessment_Portal_Backend.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GetQuestionsByAssessmentId(int assessmentId)
         {
             var questions = await _questionService.GetQuestionsByAssessmentIdAsync(assessmentId);
@@ -40,6 +41,7 @@ namespace Skill_Assessment_Portal_Backend.Controllers
         }
 
         [HttpGet("{questionId}")]
+        [Authorize]
         public async Task<IActionResult> GetQuestionById(int assessmentId, int questionId)
         {
             var question = await _questionService.GetQuestionByIdAsync(questionId);
@@ -51,6 +53,7 @@ namespace Skill_Assessment_Portal_Backend.Controllers
         }
 
         [HttpPut("{questionId}")]
+        [Authorize(Roles = "Admin,Evaluator")]
         public async Task<IActionResult> UpdateQuestion(int assessmentId, int questionId, [FromBody] QuestionUpdateDto questionDto)
         {
             try
@@ -70,6 +73,7 @@ namespace Skill_Assessment_Portal_Backend.Controllers
         }
 
         [HttpDelete("{questionId}")]
+        [Authorize(Roles = "Admin,Evaluator")]
         public async Task<IActionResult> DeleteQuestion(int assessmentId, int questionId)
         {
             try
